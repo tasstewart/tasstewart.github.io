@@ -1,0 +1,48 @@
+/*.six {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 70px;
+    color: white;
+    font-family: 'Bangers', cursive;
+    background-color: crimson;
+    text-align: center;
+}
+*/
+
+html {
+    color: white;
+    background-color: crimson;
+    text-align: center;
+}
+
+.about, .tipT {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+container {
+    text-align: center;
+    height: 100px;
+    width: 50px;
+    color: white;
+    letter-spacing: 1px;
+    background-color: crimson;
+    font-family: 'Bangers', cursive;
+}
+
+#but {
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+h4 {
+    text-align: right;
+    text-decoration: none; 
+    background-color: none;
+}
