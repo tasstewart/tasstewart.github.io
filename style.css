@@ -9,6 +9,23 @@
 }
 */
 
+#totalT {
+    background-color: crimson;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+#but {
+    text-align: center;
+    margin-bottom: 10em;
+}
+
 html {
     color: white;
     background-color: crimson;
@@ -24,7 +41,7 @@ html {
 container {
     text-align: center;
     height: 100px;
-    width: 50px;
+    width: 100px;
     color: white;
     letter-spacing: 1px;
     background-color: crimson;
@@ -33,6 +50,7 @@ container {
 
 #but {
     text-align: center;
+    margin-bottom: 5px;
 }
 
 h2 {
@@ -42,7 +60,7 @@ h2 {
 }
 
 h4 {
-    text-align: right;
+    text-align: center;
     text-decoration: none; 
     background-color: none;
 }

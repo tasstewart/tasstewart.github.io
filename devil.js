@@ -9,7 +9,9 @@ function addition() {
     
     if (total < 6.66) {
 document.getElementById("totalT").style.display= "block";
-document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $6.66`;
+
+document.getElementById("devilTam").innerHTML = `Tip Amount = $${(6.66-noOne).toFixed(2)}`;
+document.getElementById("devilT").innerHTML = `Total = $6.66`;
 }
     else if (total < 16.66) {
 document.getElementById("totalT").style.display= "block";
@@ -127,6 +129,54 @@ document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${
   document.getElementById("totalT").style.display= "block";
 document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $296.66`;
 }
+    else if (total < 296.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $296.66`;
+}
+    else if (total < 306.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $306.66`;
+}
+    else if (total < 316.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $316.66`;
+}    
+    else if (total < 326.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $326.66`;
+}    
+    else if (total < 336.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $336.66`;
+}    
+    else if (total < 346.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $346.66`;
+}    
+    else if (total < 356.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $356.66`;
+}    
+    else if (total < 366.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $366.66`;
+}    
+    else if (total < 376.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $376.66`;
+}    
+    else if (total < 386.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $386.66`;
+}    
+    else if (total < 396.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $396.66`;
+}    
+    else if (total < 406.66) {
+  document.getElementById("totalT").style.display= "block";
+document.getElementById("tipT").innerHTML = `Your standard bill inluding your ${noTwo*100}% tip is $${total.toFixed(2)}. To round it up and tip like a devil please pay $406.66`;
+}    
     else {
 document.getElementById("totalT").style.display= "block";
 document.getElementById("tipT").innerHTML = `Wow! Big Spender, you might have to do the math yourself!`;
